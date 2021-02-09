@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 5vh;
+    color: black;
+    background-image: url(images/body-bg.jpg);
+    background-size: cover;
+}
+
+.card {
+    background: none;
+    border-style: double;
+    border-width: 1vh;
+    border-color: black;
+    background-image: url(images/card-bg.jpg);
+    background-size: cover;
+}
+
+.game-card {
+    height: 100vh;
+    border: none;
+}
+
+.card-header, .card-footer {
+    border: none;
+    background: none;
+}
+
+.card-body {
+    border-top: 1vh black double;
+    border-bottom: 1vh black double;
+    background: none;
+    padding-left: 3vw;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.05vw;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: none;
+    border: 0.25vh black solid;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 0.05vw;
+}
+
+.btn-success:hover {
+    background: none;
+    background-color: #ffcb99;
+    color: black;
+    border-color: #634b47;
+}
+
+.btn:hover {
+    background: none;
+    background-color: #ffcb99;
+    color: inherit;
+    border-color: #634b47;
+}
+
+h3, h5 {
+    font-weight: 600;
+}
+
+h3 > span, #genderOutput, #birthDayOutput {
+    margin-left: 1vw;
+}
+
+#birthMonthOutput, #birthYearOutput {
+    margin-left: 0.25vw;
+}
+
+h5 {
+    margin-left: 2vw;
+}
+
+span {
+    font-style: italic;
+    font-weight: 400;
+}
