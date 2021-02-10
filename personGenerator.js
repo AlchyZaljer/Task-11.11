@@ -189,7 +189,7 @@ const personGenerator = {
         } else if (evenMonthArr.indexOf(month) !== -1) { // для четных месяцев
             return this.randomIntNumber(30, 1);
         } else { // для "февраля"
-            if (year % 4 == 0) { // проверка на високосность 
+            if (year % 4 === 0) { // проверка на високосность 
                 return this.randomIntNumber(29, 1);
             } else {
                 return this.randomIntNumber(28, 1);
